@@ -1,0 +1,29 @@
+.note-item {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin: 5px; 
+	align-items: center;
+	height: 45px;
+	border-radius: 2px;
+	background-color: rgb(71, 71, 71);
+	overflow: hidden;
+}
+
+.note-item:hover {
+	background-color: rgb(87, 87, 87);
+}
+fa-icon {
+	padding: 8px 8px;
+	color: var(--red);
+	border-radius: 5px;
+}
+fa-icon:hover {
+	font-size: 1.08em;
+	color: rgb(179, 14, 14);
+}
+
+.selected {
+	background-color: rgb(92, 92, 92);
+	border-left: 7px solid var(--blue);
+}

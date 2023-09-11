@@ -1,0 +1,11 @@
+<div class="newNoteField">
+	<input id="new-note-input" #title placeholder="Add New Note" />
+	<button id="new-note-button" type="button" (click)="addNewNote(title.value); title.value = '';">Add+</button>
+</div>
+
+<app-note-item *ngFor="let note of notes"
+	[note] = "note"
+	[isSelected] = "isSelected(note.id)"
+	(onSelect)="onSelect(note)"
+	(onDelete)="onDelete(note)"
+></app-note-item>
