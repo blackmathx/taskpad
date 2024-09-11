@@ -24,7 +24,7 @@ export class NoteService {
 				{
 					'id': uuidv4(),
 					'title': 'Getting Started',
-					'text': 'Welcome to TaskPad!',
+					'text': 'Welcome to TaskPad! \n\nTaskPad is an online text editor that stores the notes in your browsers local Storage. No data is sent over the Internet. \n\nhttps://github.com/eimbo/TaskPad',
 				},
 			]
 			localStorage.setItem("notes", JSON.stringify(temp));
