@@ -1,6 +1,6 @@
 ### TaskPad ([website](www.taskpad.dev))
 
-#### TaskPad is an online text editor that stores the data in your browsers local storage. No data is sent over the internet. 
+#### TaskPad is an online text editor that stores the data in the browsers local storage.
 
 <br/>
 
