@@ -1,4 +1,4 @@
-### TaskPad ([website](www.taskpad.dev))
+### TaskPad - ([website](www.taskpad.dev))
 
 #### TaskPad is an online text editor that stores the data in the browsers local storage.
 
