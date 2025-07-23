@@ -1,7 +1,7 @@
-### TaskPad - ([website](www.taskpad.dev))
+### TaskPad - ([website](www.taskpad.dev)) down.
 
-#### TaskPad is an online text editor that stores the data in the browsers local storage.
+#### TaskPad is an online text editor and notepad that stores the data in local storage.
 
 <br/>
 
-Angular, Tailwind, AWS Static Hosting, AWS CloudFront, AWS Route 53, 
+Angular, Tailwind, AWS Static Hosting, CloudFront CDN.
